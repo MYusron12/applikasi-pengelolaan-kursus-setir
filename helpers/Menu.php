@@ -22,9 +22,21 @@ class Menu{
 		),
 		
 		array(
-			'path' => 'jadwal_kursus', 
+			'path' => '', 
 			'label' => 'Jadwal Kursus', 
-			'icon' => '<i class="fa fa-table "></i>'
+			'icon' => '<i class="fa fa-table "></i>','submenu' => array(
+		array(
+			'path' => 'jadwal_kursus/add', 
+			'label' => 'Tambah Jadwal Kursus', 
+			'icon' => ''
+		),
+		
+		array(
+			'path' => 'jadwal_kursus', 
+			'label' => 'Laporan jadwal kursus', 
+			'icon' => ''
+		)
+	)
 		),
 		
 		array(
@@ -34,9 +46,21 @@ class Menu{
 		),
 		
 		array(
-			'path' => 'formulir_pendaftaran', 
+			'path' => '', 
 			'label' => 'Formulir Pendaftaran', 
-			'icon' => '<i class="fa fa-pencil-square-o "></i>'
+			'icon' => '<i class="fa fa-pencil-square-o "></i>','submenu' => array(
+		array(
+			'path' => 'formulir_pendaftaran/add', 
+			'label' => 'Tambah Formulir Pendaftaran', 
+			'icon' => ''
+		),
+		
+		array(
+			'path' => 'formulir_pendaftaran', 
+			'label' => 'Laporan Formulir Pendaftaran', 
+			'icon' => ''
+		)
+	)
 		),
 		
 		array(
@@ -50,8 +74,14 @@ class Menu{
 			'label' => 'Pengelolaan User', 
 			'icon' => '<i class="fa fa-smile-o "></i>','submenu' => array(
 		array(
+			'path' => 'user/add', 
+			'label' => 'Tambah User Baru', 
+			'icon' => ''
+		),
+		
+		array(
 			'path' => 'user', 
-			'label' => 'User', 
+			'label' => 'Laporan User', 
 			'icon' => ''
 		),
 		
