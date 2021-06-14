@@ -171,7 +171,7 @@ class Formulir_pendaftaranController extends SecureController{
 				'pekerjaan' => 'required',
 				'alasan_mengikuti_kursus' => 'required',
 				'umur' => 'required|numeric',
-				'no_telpon' => 'required|numeric',
+				'no_telpon' => 'required',
 				'harga_pendaftaran' => 'required|numeric',
 				'bukti_pembayaran' => 'required',
 			);
@@ -225,7 +225,7 @@ class Formulir_pendaftaranController extends SecureController{
 				'pekerjaan' => 'required',
 				'alasan_mengikuti_kursus' => 'required',
 				'umur' => 'required|numeric',
-				'no_telpon' => 'required|numeric',
+				'no_telpon' => 'required',
 				'harga_pendaftaran' => 'required|numeric',
 				'bukti_pembayaran' => 'required',
 			);
@@ -298,7 +298,7 @@ class Formulir_pendaftaranController extends SecureController{
 				'pekerjaan' => 'required',
 				'alasan_mengikuti_kursus' => 'required',
 				'umur' => 'required|numeric',
-				'no_telpon' => 'required|numeric',
+				'no_telpon' => 'required',
 				'harga_pendaftaran' => 'required|numeric',
 				'bukti_pembayaran' => 'required',
 			);

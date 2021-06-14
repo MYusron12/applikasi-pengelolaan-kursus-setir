@@ -127,7 +127,7 @@ $redirect_to = $this->redirect_to;
                                                             </div>
                                                             <div class="col-sm-8">
                                                                 <div class="">
-                                                                    <input id="ctrl-no_telpon"  value="<?php  echo $this->set_field_value('no_telpon',""); ?>" type="number" placeholder="Enter No Telpon" step="1"  required="" name="no_telpon"  class="form-control " />
+                                                                    <input id="ctrl-no_telpon"  value="<?php  echo $this->set_field_value('no_telpon',""); ?>" type="text" placeholder="Enter No Telpon"  required="" name="no_telpon"  class="form-control " />
                                                                     </div>
                                                                 </div>
                                                             </div>

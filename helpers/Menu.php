@@ -27,14 +27,14 @@ class Menu{
 			'icon' => '<i class="fa fa-table "></i>','submenu' => array(
 		array(
 			'path' => 'jadwal_kursus/add', 
-			'label' => 'Tambah Jadwal Kursus', 
-			'icon' => ''
+			'label' => 'Tambah Jadwal ', 
+			'icon' => '<i class="fa fa-plus-circle "></i>'
 		),
 		
 		array(
 			'path' => 'jadwal_kursus', 
-			'label' => 'Laporan jadwal kursus', 
-			'icon' => ''
+			'label' => 'Laporan Jadwal ', 
+			'icon' => '<i class="fa fa-calendar-plus-o "></i>'
 		)
 	)
 		),
@@ -51,14 +51,14 @@ class Menu{
 			'icon' => '<i class="fa fa-pencil-square-o "></i>','submenu' => array(
 		array(
 			'path' => 'formulir_pendaftaran/add', 
-			'label' => 'Tambah Formulir Pendaftaran', 
-			'icon' => ''
+			'label' => 'Tambah Formulir', 
+			'icon' => '<i class="fa fa-plus-circle "></i>'
 		),
 		
 		array(
 			'path' => 'formulir_pendaftaran', 
-			'label' => 'Laporan Formulir Pendaftaran', 
-			'icon' => ''
+			'label' => 'Laporan Formulir', 
+			'icon' => '<i class="fa fa-calendar-plus-o "></i>'
 		)
 	)
 		),
@@ -75,26 +75,26 @@ class Menu{
 			'icon' => '<i class="fa fa-smile-o "></i>','submenu' => array(
 		array(
 			'path' => 'user/add', 
-			'label' => 'Tambah User Baru', 
-			'icon' => ''
+			'label' => 'Tambah User', 
+			'icon' => '<i class="fa fa-plus-circle "></i>'
 		),
 		
 		array(
 			'path' => 'user', 
 			'label' => 'Laporan User', 
-			'icon' => ''
+			'icon' => '<i class="fa fa-calendar-plus-o "></i>'
 		),
 		
 		array(
 			'path' => 'role_permissions', 
 			'label' => 'Role Permisions', 
-			'icon' => ''
+			'icon' => '<i class="fa fa-plug "></i>'
 		),
 		
 		array(
 			'path' => 'roles', 
 			'label' => 'Roles Id', 
-			'icon' => ''
+			'icon' => '<i class="fa fa-user-plus "></i>'
 		)
 	)
 		)
